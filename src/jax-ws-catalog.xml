@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="http://190.25.225.83:8080/Gauss/FacturacionService" uri="wsdl/190.25.225.83_8080/gauss/facturacionservice"/>
+    <system systemId="http://pruebas.croydon.com.co:8080/Gauss/FacturacionService" uri="wsdl/pruebas.croydon.com.co_8080/gauss/facturacionservice"/>
+    <system systemId="http://pruebas.croydon.com.co:8080/Gauss/FacturacionService?wsdl" uri="wsdl/pruebas.croydon.com.co_8080/gauss/FacturacionService.wsdl"/>
+    <system systemId="http://pruebas.croydon.com.co:8080/Gauss/FacturacionService?xsd=1" uri="wsdl/pruebas.croydon.com.co_8080/gauss/FacturacionService.xsd_1.xsd"/>
+    <system systemId="http://129.213.171.176:6089/PY920/DisponibilidadManagerService?WSDL" uri="wsdl/129.213.171.176_6089/PY920/DisponibilidadManagerService.wsdl"/>
+    <system systemId="http://129.213.171.176:6089/PY920/DisponibilidadManagerService?xsd=1" uri="wsdl/129.213.171.176_6089/PY920/DisponibilidadManagerService.xsd_1.xsd"/>
+</catalog>

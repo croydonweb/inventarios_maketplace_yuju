@@ -1,0 +1,90 @@
+<html>
+<head><title>
+Servicios Web
+</title></head>
+<body>
+<h1>Servicios web</h1>
+<table width='100%' border='1'>
+<tr>
+<td>
+Punto Final
+</td>
+<td>
+Información
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://gauss.koghi.com/}ComunesService</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://gauss.koghi.com/}ComunesPort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://190.25.225.83:8080/Gauss/ComunesService</td></tr><tr><td>WSDL\:</td><td><a href\="http://190.25.225.83:8080/Gauss/ComunesService?wsdl">http://190.25.225.83:8080/Gauss/ComunesService?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>com.koghi.gauss.Comunes</td></tr></table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://gauss.koghi.com/}InventarioService</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://gauss.koghi.com/}InventarioPort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://190.25.225.83:8080/Gauss/InventarioService</td></tr><tr><td>WSDL\:</td><td><a href\="http://190.25.225.83:8080/Gauss/InventarioService?wsdl">http://190.25.225.83:8080/Gauss/InventarioService?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>com.koghi.gauss.Inventario</td></tr></table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://gauss.koghi.com/}AdminService</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://gauss.koghi.com/}AdminPort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://190.25.225.83:8080/Gauss/AdminService</td></tr><tr><td>WSDL\:</td><td><a href\="http://190.25.225.83:8080/Gauss/AdminService?wsdl">http://190.25.225.83:8080/Gauss/AdminService?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>com.koghi.gauss.Admin</td></tr></table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://gauss.koghi.com/}NominaService</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://gauss.koghi.com/}NominaPort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://190.25.225.83:8080/Gauss/NominaService</td></tr><tr><td>WSDL\:</td><td><a href\="http://190.25.225.83:8080/Gauss/NominaService?wsdl">http://190.25.225.83:8080/Gauss/NominaService?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>com.koghi.gauss.Nomina</td></tr></table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://gauss.koghi.com/}CarteraService</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://gauss.koghi.com/}CarteraPort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://190.25.225.83:8080/Gauss/CarteraService</td></tr><tr><td>WSDL\:</td><td><a href\="http://190.25.225.83:8080/Gauss/CarteraService?wsdl">http://190.25.225.83:8080/Gauss/CarteraService?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>com.koghi.gauss.Cartera</td></tr></table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://gauss.koghi.com/}FacturacionService</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://gauss.koghi.com/}FacturacionPort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://190.25.225.83:8080/Gauss/FacturacionService</td></tr><tr><td>WSDL\:</td><td><a href\="http://190.25.225.83:8080/Gauss/FacturacionService?wsdl">http://190.25.225.83:8080/Gauss/FacturacionService?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>com.koghi.gauss.Facturacion</td></tr></table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://gauss.koghi.com/}ActivosService</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://gauss.koghi.com/}ActivosPort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://190.25.225.83:8080/Gauss/ActivosService</td></tr><tr><td>WSDL\:</td><td><a href\="http://190.25.225.83:8080/Gauss/ActivosService?wsdl">http://190.25.225.83:8080/Gauss/ActivosService?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>com.koghi.gauss.Activos</td></tr></table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://gauss.koghi.com/}ContabilidadService</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://gauss.koghi.com/}ContabilidadPort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://190.25.225.83:8080/Gauss/ContabilidadService</td></tr><tr><td>WSDL\:</td><td><a href\="http://190.25.225.83:8080/Gauss/ContabilidadService?wsdl">http://190.25.225.83:8080/Gauss/ContabilidadService?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>com.koghi.gauss.Contabilidad</td></tr></table>
+</td>
+</tr>
+<tr>
+<td>
+<table border=\"0\"><tr><td>Nombre de Servicio\:</td><td>{http://gauss.koghi.com/}IndicadoresService</td></tr><tr><td>Nombre de Puerto\:</td><td>{http://gauss.koghi.com/}IndicadoresPort</td></tr></table>
+</td>
+<td>
+<table border=\"0\"><tr><td>Dirección\:</td><td>http://190.25.225.83:8080/Gauss/IndicadoresService</td></tr><tr><td>WSDL\:</td><td><a href\="http://190.25.225.83:8080/Gauss/IndicadoresService?wsdl">http://190.25.225.83:8080/Gauss/IndicadoresService?wsdl</a></td></tr><tr><td>Clase de Implantación\:</td><td>com.koghi.gauss.Indicadores</td></tr></table>
+</td>
+</tr>
+</table>
+</body>
+</html>

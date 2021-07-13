@@ -1,0 +1,733 @@
+<?xml version='1.0' encoding='UTF-8'?><!-- Published by JAX-WS RI (http://jax-ws.java.net). RI's version is Metro/2.4.3.payara-p2 (PAYARA-3579-ff11a82; 2019-03-07T10:51:27+0530) JAXWS-RI/2.3.2 JAXWS-API/2.3.2 JAXB-RI/2.3.2 JAXB-API/2.3.2 git-revision#unknown. --><xs:schema xmlns:tns="http://gauss.koghi.com/" xmlns:xs="http://www.w3.org/2001/XMLSchema" version="1.0" targetNamespace="http://gauss.koghi.com/">
+
+<xs:element name="CarAplicacionFacturas" type="tns:CarAplicacionFacturas"/>
+
+<xs:element name="CarAplicacionFacturasResponse" type="tns:CarAplicacionFacturasResponse"/>
+
+<xs:element name="FACPRECIOSEL" type="tns:FACPRECIOSEL"/>
+
+<xs:element name="FACPRECIOSELResponse" type="tns:FACPRECIOSELResponse"/>
+
+<xs:element name="FACVENDCLIENTES" type="tns:FACVENDCLIENTES"/>
+
+<xs:element name="FACVENDCLIENTESResponse" type="tns:FACVENDCLIENTESResponse"/>
+
+<xs:element name="FAC_ACTLIN" type="tns:FAC_ACTLIN"/>
+
+<xs:element name="FAC_ACTLINResponse" type="tns:FAC_ACTLINResponse"/>
+
+<xs:element name="FAC_ACTPED" type="tns:FAC_ACTPED"/>
+
+<xs:element name="FAC_ACTPEDResponse" type="tns:FAC_ACTPEDResponse"/>
+
+<xs:element name="FAC_CARGA_PLANTILLAS" type="tns:FAC_CARGA_PLANTILLAS"/>
+
+<xs:element name="FAC_CARGA_PLANTILLASResponse" type="tns:FAC_CARGA_PLANTILLASResponse"/>
+
+<xs:element name="FAC_CONDET" type="tns:FAC_CONDET"/>
+
+<xs:element name="FAC_CONDETResponse" type="tns:FAC_CONDETResponse"/>
+
+<xs:element name="FAC_CONDIR" type="tns:FAC_CONDIR"/>
+
+<xs:element name="FAC_CONDIRResponse" type="tns:FAC_CONDIRResponse"/>
+
+<xs:element name="FAC_CONGRU" type="tns:FAC_CONGRU"/>
+
+<xs:element name="FAC_CONGRUResponse" type="tns:FAC_CONGRUResponse"/>
+
+<xs:element name="FAC_CONINI" type="tns:FAC_CONINI"/>
+
+<xs:element name="FAC_CONINIP" type="tns:FAC_CONINIP"/>
+
+<xs:element name="FAC_CONINIPResponse" type="tns:FAC_CONINIPResponse"/>
+
+<xs:element name="FAC_CONINIResponse" type="tns:FAC_CONINIResponse"/>
+
+<xs:element name="FAC_CONLIQP" type="tns:FAC_CONLIQP"/>
+
+<xs:element name="FAC_CONLIQPResponse" type="tns:FAC_CONLIQPResponse"/>
+
+<xs:element name="FAC_CONLOT" type="tns:FAC_CONLOT"/>
+
+<xs:element name="FAC_CONLOTResponse" type="tns:FAC_CONLOTResponse"/>
+
+<xs:element name="FAC_CONPED" type="tns:FAC_CONPED"/>
+
+<xs:element name="FAC_CONPEDHIST" type="tns:FAC_CONPEDHIST"/>
+
+<xs:element name="FAC_CONPEDHISTResponse" type="tns:FAC_CONPEDHISTResponse"/>
+
+<xs:element name="FAC_CONPEDINI" type="tns:FAC_CONPEDINI"/>
+
+<xs:element name="FAC_CONPEDINIResponse" type="tns:FAC_CONPEDINIResponse"/>
+
+<xs:element name="FAC_CONPEDResponse" type="tns:FAC_CONPEDResponse"/>
+
+<xs:element name="FAC_CONSGRU" type="tns:FAC_CONSGRU"/>
+
+<xs:element name="FAC_CONSGRUResponse" type="tns:FAC_CONSGRUResponse"/>
+
+<xs:element name="FAC_CONSUC" type="tns:FAC_CONSUC"/>
+
+<xs:element name="FAC_CONSUCResponse" type="tns:FAC_CONSUCResponse"/>
+
+<xs:element name="FAC_CONSULTA_PLANTILLA" type="tns:FAC_CONSULTA_PLANTILLA"/>
+
+<xs:element name="FAC_CONSULTA_PLANTILLAResponse" type="tns:FAC_CONSULTA_PLANTILLAResponse"/>
+
+<xs:element name="FAC_ELIMINA_PLANTILLA" type="tns:FAC_ELIMINA_PLANTILLA"/>
+
+<xs:element name="FAC_ELIMINA_PLANTILLAResponse" type="tns:FAC_ELIMINA_PLANTILLAResponse"/>
+
+<xs:element name="FAC_ELIMINA_PLANTILLA_PED" type="tns:FAC_ELIMINA_PLANTILLA_PED"/>
+
+<xs:element name="FAC_ELIMINA_PLANTILLA_PEDResponse" type="tns:FAC_ELIMINA_PLANTILLA_PEDResponse"/>
+
+<xs:element name="FAC_ELIMPED" type="tns:FAC_ELIMPED"/>
+
+<xs:element name="FAC_ELIMPEDResponse" type="tns:FAC_ELIMPEDResponse"/>
+
+<xs:element name="FAC_GENERA_PLANTILLA_PED" type="tns:FAC_GENERA_PLANTILLA_PED"/>
+
+<xs:element name="FAC_GENERA_PLANTILLA_PEDResponse" type="tns:FAC_GENERA_PLANTILLA_PEDResponse"/>
+
+<xs:element name="FAC_GENERORDPED_PLANTILLA" type="tns:FAC_GENERORDPED_PLANTILLA"/>
+
+<xs:element name="FAC_GENERORDPED_PLANTILLAResponse" type="tns:FAC_GENERORDPED_PLANTILLAResponse"/>
+
+<xs:element name="FAC_TOTPED" type="tns:FAC_TOTPED"/>
+
+<xs:element name="FAC_TOTPEDResponse" type="tns:FAC_TOTPEDResponse"/>
+
+<xs:element name="FacConsultaEstadoCartera" type="tns:FacConsultaEstadoCartera"/>
+
+<xs:element name="FacConsultaEstadoCarteraResponse" type="tns:FacConsultaEstadoCarteraResponse"/>
+
+<xs:element name="FacConsultaGuia" type="tns:FacConsultaGuia"/>
+
+<xs:element name="FacConsultaGuiaResponse" type="tns:FacConsultaGuiaResponse"/>
+
+<xs:element name="GES_MENIND" type="tns:GES_MENIND"/>
+
+<xs:element name="GES_MENINDResponse" type="tns:GES_MENINDResponse"/>
+
+<xs:element name="InvConsultaDispCroydonista" type="tns:InvConsultaDispCroydonista"/>
+
+<xs:element name="InvConsultaDispCroydonistaResponse" type="tns:InvConsultaDispCroydonistaResponse"/>
+
+<xs:element name="InvConsultaDispItemBod" type="tns:InvConsultaDispItemBod"/>
+
+<xs:element name="InvConsultaDispItemBodResponse" type="tns:InvConsultaDispItemBodResponse"/>
+
+<xs:element name="InvConsultaItemIncentivo" type="tns:InvConsultaItemIncentivo"/>
+
+<xs:element name="InvConsultaItemIncentivoResponse" type="tns:InvConsultaItemIncentivoResponse"/>
+
+<xs:element name="InvConsultaItemTiendas" type="tns:InvConsultaItemTiendas"/>
+
+<xs:element name="InvConsultaItemTiendasResponse" type="tns:InvConsultaItemTiendasResponse"/>
+
+<xs:complexType name="FAC_CONDIR">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="nitCliente" type="xs:string" minOccurs="0"/>
+<xs:element name="codDireccion" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONDIRResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_TOTPED">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="noOrdenPedido" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_TOTPEDResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_ACTLIN">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cedula" type="xs:string" minOccurs="0"/>
+<xs:element name="cedulaONitCliente" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="noOrdenPedido" type="xs:string" minOccurs="0"/>
+<xs:element name="lineaDeOrden" type="xs:string" minOccurs="0"/>
+<xs:element name="codigoItem" type="xs:string" minOccurs="0"/>
+<xs:element name="codSeleccion" type="xs:string" minOccurs="0"/>
+<xs:element name="codLote" type="xs:string" minOccurs="0"/>
+<xs:element name="cantidad" type="xs:string" minOccurs="0"/>
+<xs:element name="novedad" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_ACTLINResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FACPRECIOSEL">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cedula" type="xs:string" minOccurs="0"/>
+<xs:element name="cedulaONitCliente" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="codigoItem" type="xs:string" minOccurs="0"/>
+<xs:element name="codSeleccion" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FACPRECIOSELResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONLOT">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="codigoItem" type="xs:string" minOccurs="0"/>
+<xs:element name="codigoSeleccion" type="xs:string" minOccurs="0"/>
+<xs:element name="porcion" type="xs:string" minOccurs="0"/>
+<xs:element name="puntoPartida" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="noItems" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONLOTResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_ACTPED">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="noOrdenPedido" type="xs:string" minOccurs="0"/>
+<xs:element name="correo" type="xs:string" minOccurs="0"/>
+<xs:element name="dirMercancia" type="xs:string" minOccurs="0"/>
+<xs:element name="dirFacturacion" type="xs:string" minOccurs="0"/>
+<xs:element name="fechaInicio" type="xs:string" minOccurs="0"/>
+<xs:element name="fechaFin" type="xs:string" minOccurs="0"/>
+<xs:element name="observaciones" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_ACTPEDResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONPED">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="noPedido" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONPEDResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_ELIMINA_PLANTILLA_PED">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cedula" type="xs:string" minOccurs="0"/>
+<xs:element name="codPlantilla" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_ELIMINA_PLANTILLA_PEDResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_ELIMPED">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="noOrdenPedido" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_ELIMPEDResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="InvConsultaItemTiendas">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="codItem" type="xs:string" minOccurs="0"/>
+<xs:element name="codCiudad" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="InvConsultaItemTiendasResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONDET">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="codigoItem" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONDETResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONPEDHIST">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cliente" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="tipo" type="xs:string" minOccurs="0"/>
+<xs:element name="fechaIni" type="xs:string" minOccurs="0"/>
+<xs:element name="fechaFin" type="xs:string" minOccurs="0"/>
+<xs:element name="puntoPartida" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="noRegistros" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONPEDHISTResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_GENERA_PLANTILLA_PED">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="noOrden" type="xs:string" minOccurs="0"/>
+<xs:element name="descripcion" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_GENERA_PLANTILLA_PEDResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONINIP">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="noOrdenPedido" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONINIPResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FacConsultaGuia">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="orden" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FacConsultaGuiaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONINI">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cedula" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="codigoCategoria" type="xs:string" minOccurs="0"/>
+<xs:element name="codigoSubCategoria" type="xs:string" minOccurs="0"/>
+<xs:element name="puntoPartida" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="noRegistros" type="xs:string" minOccurs="0"/>
+<xs:element name="porcionNombre" type="xs:string" minOccurs="0"/>
+<xs:element name="porcionCodigo" type="xs:string" minOccurs="0"/>
+<xs:element name="porcionReferencia" type="xs:string" minOccurs="0"/>
+<xs:element name="porcionDiseno" type="xs:string" minOccurs="0"/>
+<xs:element name="codEvento" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONINIResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONGRU">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="porcion" type="xs:string" minOccurs="0"/>
+<xs:element name="puntodePartida" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="noItems" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONGRUResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GES_MENIND">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="porcion" type="xs:string" minOccurs="0"/>
+<xs:element name="puntodePartida" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="noItems" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="GES_MENINDResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONPEDINI">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="nitTercero" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="fechaIni" type="xs:string" minOccurs="0"/>
+<xs:element name="fechaFin" type="xs:string" minOccurs="0"/>
+<xs:element name="puntoPartida" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="noRegistros" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONPEDINIResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_ELIMINA_PLANTILLA">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cedula" type="xs:string" minOccurs="0"/>
+<xs:element name="codPlantilla" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_ELIMINA_PLANTILLAResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONLIQP">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="noOrdenPedido" type="xs:string" minOccurs="0"/>
+<xs:element name="puntoDePartida" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="noRegistros" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONLIQPResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FACVENDCLIENTES">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cedvend" type="xs:string" minOccurs="0"/>
+<xs:element name="noRegistros" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FACVENDCLIENTESResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_GENERORDPED_PLANTILLA">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="clienteAutenticado" type="xs:string" minOccurs="0"/>
+<xs:element name="Cliente" type="xs:string" minOccurs="0"/>
+<xs:element name="codPlantilla" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_GENERORDPED_PLANTILLAResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONSULTA_PLANTILLA">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cliente" type="xs:string" minOccurs="0"/>
+<xs:element name="codPlantilla" type="xs:string" minOccurs="0"/>
+<xs:element name="ptoPartida" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="noRegistros" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONSULTA_PLANTILLAResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="InvConsultaDispItemBod">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="codItem" type="xs:string" minOccurs="0"/>
+<xs:element name="cantidad" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="InvConsultaDispItemBodResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FacConsultaEstadoCartera">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cliente" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FacConsultaEstadoCarteraResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="InvConsultaDispCroydonista">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="codItem" type="xs:string" minOccurs="0"/>
+<xs:element name="cantidad" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="InvConsultaDispCroydonistaResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONSGRU">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="codCategoria" type="xs:string" minOccurs="0"/>
+<xs:element name="porcion" type="xs:string" minOccurs="0"/>
+<xs:element name="puntodePartida" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="noItems" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONSGRUResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CARGA_PLANTILLAS">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cedula" type="xs:string" minOccurs="0"/>
+<xs:element name="porcion" type="xs:string" minOccurs="0"/>
+<xs:element name="ptoPartida" type="xs:string" minOccurs="0"/>
+<xs:element name="direccion" type="xs:string" minOccurs="0"/>
+<xs:element name="noRegistros" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CARGA_PLANTILLASResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONSUC">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="FAC_CONSUCResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="InvConsultaItemIncentivo">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="codItem" type="xs:string" minOccurs="0"/>
+<xs:element name="cantidad" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="InvConsultaItemIncentivoResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CarAplicacionFacturas">
+<xs:sequence>
+<xs:element name="uid" type="xs:string" minOccurs="0"/>
+<xs:element name="cia" type="xs:string" minOccurs="0"/>
+<xs:element name="ano" type="xs:string" minOccurs="0"/>
+<xs:element name="app" type="xs:string" minOccurs="0"/>
+<xs:element name="cliente" type="xs:string" minOccurs="0"/>
+<xs:element name="sucursal" type="xs:string" minOccurs="0"/>
+<xs:element name="factura" type="xs:string" minOccurs="0"/>
+<xs:element name="parcial" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="CarAplicacionFacturasResponse">
+<xs:sequence>
+<xs:element name="return" type="xs:string" minOccurs="0"/>
+</xs:sequence>
+</xs:complexType>
+</xs:schema>
